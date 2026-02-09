@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant - Elige tu Agente</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">VALORANT</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#agentes">Agentes</a></li>
+                <li><a href="#modos">Modos</a></li>
+                <li><a href="#competitivo">Competitivo</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="VALORANT">VALORANT</h1>
+            <p class="subtitle">Un shooter táctico 5v5 donde la precisión encuentra la estrategia</p>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Estadísticas -->
+    <section class="stats">
+        <div class="container">
+            <div class="stat-item">
+                <span class="stat-number" data-target="28">0</span>
+                <span class="stat-label">Agentes</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="9">0</span>
+                <span class="stat-label">Mapas</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="35">0</span>
+                <span class="stat-label">Millones de Jugadores</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="4">0</span>
+                <span class="stat-label">Regiones VCT</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agentes Section -->
+    <section id="agentes" class="agents">
+        <div class="container">
+            <h2 class="section-title">ELIGE TU <span class="highlight">AGENTE</span></h2>
+            <p class="section-subtitle">28 agentes únicos, cada uno con habilidades que definen el campo de batalla</p>
+            
+            <div class="agents-filter">
+                <button class="filter-btn active" data-role="all">Todos</button>
+                <button class="filter-btn" data-role="duelist">Duelistas</button>
+                <button class="filter-btn" data-role="initiator">Iniciadores</button>
+                <button class="filter-btn" data-role="controller">Controladores</button>
+                <button class="filter-btn" data-role="sentinel">Centinelas</button>
+            </div>
+
+            <div class="agents-grid">
+                <!-- DUELISTAS -->
+                <div class="agent-card" data-role="duelist">
+                    <div class="agent-image">
+                        <div class="agent-placeholder jett">JETT</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Duelista</span>
+                        <h3>Jett</h3>
+                        <p>Representa su país de origen, Corea del Sur, con un estilo de combate ágil y evasivo que destaca en movimientos impredecibles.</p>
+                        <div class="abilities">
+                            <span class="ability">Nube de humo</span>
+                            <span class="ability">Corriente ascendente</span>
+                            <span class="ability">Ráfaga</span>
+                            <span class="ability">Tormenta de cuchillas</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agent-card" data-role="duelist">
+                    <div class="agent-image">
+                        <div class="agent-placeholder phoenix">PHOENIX</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Duelista</span>
+                        <h3>Phoenix</h3>
+                        <p>El británico con poderes ígneos que puede curarse a sí mismo mientras desata el caos en el campo de batalla.</p>
+                        <div class="abilities">
+                            <span class="ability">Bola curva</span>
+                            <span class="ability">Manos ardientes</span>
+                            <span class="ability">Muro de fuego</span>
+                            <span class="ability">Renacer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agent-card" data-role="duelist">
+                    <div class="agent-image">
+                        <div class="agent-placeholder reyna">REYNA</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Duelista</span>
+                        <h3>Reyna</h3>
+                        <p>Forjada en el corazón de México, domina el combate individual como ninguna otra, alimentándose de las almas de sus enemigos.</p>
+                        <div class="abilities">
+                            <span class="ability">Despreciar</span>
+                            <span class="ability">Devorar</span>
+                            <span class="ability">Mirada voraz</span>
+                            <span class="ability">Emperatriz</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agent-card" data-role="duelist">
+                    <div class="agent-image">
+                        <div class="agent-placeholder raze">RAZE</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Duelista</span>
+                        <h3>Raze</h3>
+                        <p>Explosiva y caótica, llega desde Brasil con un arsenal de explosivos que destruye todo a su paso.</p>
+                        <div class="abilities">
+                            <span class="ability">Cargador de explosivos</span>
+                            <span class="ability">Bot explosivo</span>
+                            <span class="ability">Granada de racimo</span>
+                            <span class="ability">Cañón de ñoquis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agent-card" data-role="duelist">
+                    <div class="agent-image">
+                        <div class="agent-placeholder yoru">YORU</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Duelista</span>
+                        <h3>Yoru</h3>
+                        <p>El infiltrador japonés que utiliza dimensionalidad para sorprender a sus enemigos desde cualquier ángulo.</p>
+                        <div class="abilities">
+                            <span class="ability">Señuelo</span>
+                            <span class="ability">Punto de inflexión</span>
+                            <span class="ability">Vía nocturna</span>
+                            <span class="ability">Espacio dimensional</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agent-card" data-role="duelist">
+                    <div class="agent-image">
+                        <div class="agent-placeholder neon">NEON</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Duelista</span>
+                        <h3>Neon</h3>
+                        <p>La agente filipina que canaliza bioelectricidad para moverse a velocidades extremas y electrocutar enemigos.</p>
+                        <div class="abilities">
+                            <span class="ability">Carrera rápida</span>
+                            <span class="ability">Relay Bolt</span>
+                            <span class="ability">Alto voltaje</span>
+                            <span class="ability">Sobrecarga</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agent-card" data-role="duelist">
+                    <div class="agent-image">
+                        <div class="agent-placeholder iso">ISO</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Duelista</span>
+                        <h3>Iso</h3>
+                        <p>El mercenario chino especializado en duelos uno contra uno, capaz de redefinir el campo de batalla a su favor.</p>
+                        <div class="abilities">
+                            <span class="ability">Contingencia</span>
+                            <span class="ability">Bajo corte</span>
+                            <span class="ability">Desliz doble</span>
+                            <span class="ability">Kill Contract</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- INICIADORES -->
+                <div class="agent-card" data-role="initiator">
+                    <div class="agent-image">
+                        <div class="agent-placeholder sova">SOVA</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Iniciador</span>
+                        <h3>Sova</h3>
+                        <p>El arquero ruso que nunca pierde de vista a sus objetivos, revelando enemigos ocultos con tecnología avanzada.</p>
+                        <div class="abilities">
+                            <span class="ability">Flecha de reconocimiento</span>
+                            <span class="ability">Dron búho</span>
+                            <span class="ability">Flecha de choque</span>
+                            <span class="ability">Furia del cazador</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agent-card" data-role="initiator">
+                    <div class="agent-image">
+                        <div class="agent-placeholder breach">BREACH</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Iniciador</span>
+                        <h3>Breach</h3>
+                        <p>El biónico sueco especializado en despejar áreas con fuerza bruta, usando explosiones sísmicas para aturdir enemigos.</p>
+                        <div class="abilities">
+                            <span class="ability">Falla sísmica</span>
+                            <span class="ability">Línea de falla</span>
+                            <span class="ability">Aftershock</span>
+                            <span class="ability">Temblor</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agent-card" data-role="initiator">
+                    <div class="agent-image">
+                        <div class="agent-placeholder skye">SKYE</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Iniciador</span>
+                        <h3>Skye</h3>
+                        <p>La australiana que utiliza criaturas de la naturaleza para explorar y curar a sus aliados en combate.</p>
+                        <div class="abilities">
+                            <span class="ability">Halcón de travesía</span>
+                            <span class="ability">Luz deslumbrante</span>
+                            <span class="ability">Regeneración</span>
+                            <span class="ability">Cazadores</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agent-card" data-role="initiator">
+                    <div class="agent-image">
+                        <div class="agent-placeholder kayo">KAY/O</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Iniciador</span>
+                        <h3>KAY/O</h3>
+                        <p>La máquina de guerra del futuro diseñada para neutralizar habilidades radiantes y liderar el asalto.</p>
+                        <div class="abilities">
+                            <span class="ability">Granada flash</span>
+                            <span class="ability">Cero/punto</span>
+                            <span class="ability">Frag/mento</span>
+                            <span class="ability">Anular/CMD</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agent-card" data-role="initiator">
+                    <div class="agent-image">
+                        <div class="agent-placeholder fade">FADE</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Iniciador</span>
+                        <h3>Fade</h3>
+                        <p>La cazadora de pesadillas turca que aterroriza a sus enemigos revelando sus peores miedos.</p>
+                        <div class="abilities">
+                            <span class="ability">Atrapar</span>
+                            <span class="ability">Acechador</span>
+                            <span class="ability">Oscuridad</span>
+                            <span class="ability">Pesadilla</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agent-card" data-role="initiator">
+                    <div class="agent-image">
+                        <div class="agent-placeholder gekko">GEKKO</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Iniciador</span>
+                        <h3>Gekko</h3>
+                        <p>El angelino que comanda una pandilla de criaturas alienígenas para ocupar espacios y aturdir enemigos.</p>
+                        <div class="abilities">
+                            <span class="ability">Wingman</span>
+                            <span class="ability">Dazzler</span>
+                            <span class="ability">Mosh Pit</span>
+                            <span class="ability">Thrash</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agent-card" data-role="initiator">
+                    <div class="agent-image">
+                        <div class="agent-placeholder tejo">TEJO</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Iniciador</span>
+                        <h3>Tejo</h3>
+                        <p>El veterano colombiano experto en guerra de guerrillas y armamento guiado de precisión.</p>
+                        <div class="abilities">
+                            <span class="ability">Stealth Drone</span>
+                            <span class="ability">Special Delivery</span>
+                            <span class="ability">Armed Salvo</span>
+                            <span class="ability">Armageddon</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CONTROLADORES -->
+                <div class="agent-card" data-role="controller">
+                    <div class="agent-image">
+                        <div class="agent-placeholder brimstone">BRIMSTONE</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Controlador</span>
+                        <h3>Brimstone</h3>
+                        <p>El veterano estadounidense que proporciona apoyo orbital preciso con humo, fuego y estimulantes para el equipo.</p>
+                        <div class="abilities">
+                            <span class="ability">Bengala incendiaria</span>
+                            <span class="ability">Estimulante</span>
+                            <span class="ability">Cortina de humo</span>
+                            <span class="ability">Golpe orbital</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agent-card" data-role="controller">
+                    <div class="agent-image">
+                        <div class="agent-placeholder viper">VIPER</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Controlador</span>
+                        <h3>Viper</h3>
+                        <p>Química estadounidense que despliega veneno letal en el campo, controlando el territorio con gases tóxicos.</p>
+                        <div class="abilities">
+                            <span class="ability">Nube de veneno</span>
+                            <span class="ability">Pozo de víbora</span>
+                            <span class="ability">Pantalla tóxica</span>
+                            <span class="ability">Nido de víboras</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agent-card" data-role="controller">
+                    <div class="agent-image">
+                        <div class="agent-placeholder omen">OMEN</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Controlador</span>
+                        <h3>Omen</h3>
+                        <p>Un fantasma de un pasado olvidado que controla las sombras para teletransportarse y cegar enemigos.</p>
+                        <div class="abilities">
+                            <span class="ability">Paranoia</span>
+                            <span class="ability">Manto tenebroso</span>
+                            <span class="ability">Pasos penumbras</span>
+                            <span class="ability">Desde las sombras</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agent-card" data-role="controller">
+                    <div class="agent-image">
+                        <div class="agent-placeholder astra">ASTRA</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Controlador</span>
+                        <h3>Astra</h3>
+                        <p>La agente ghanesa que moldea el cosmos para crear pozos de gravedad, nebulosas y paredes cósmicas.</p>
+                        <div class="abilities">
+                            <span class="ability">Nebulosa</span>
+                            <span class="ability">Pozo de gravedad</span>
+                            <span class="ability">Pulso nova</span>
+                            <span class="ability">División cósmica</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agent-card" data-role="controller">
+                    <div class="agent-image">
+                        <div class="agent-placeholder harbor">HARBOR</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Controlador</span>
+                        <h3>Harbor</h3>
+                        <p>El agente indio que manipula tecnología ancestral de agua para proteger aliados y bloquear visión.</p>
+                        <div class="abilities">
+                            <span class="ability">Marea alta</span>
+                            <span class="ability">Cascada</span>
+                            <span class="ability">Cove</span>
+                            <span class="ability">Reckoning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agent-card" data-role="controller">
+                    <div class="agent-image">
+                        <div class="agent-placeholder clove">CLOVE</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Controlador</span>
+                        <h3>Clove</h3>
+                        <p>El escocés inmortal que desafía la muerte, controlando el campo de batalla incluso desde el más allá.</p>
+                        <div class="abilities">
+                            <span class="ability">Pick-me-up</span>
+                            <span class="ability">Meddle</span>
+                            <span class="ability">Ruse</span>
+                            <span class="ability">Not Dead Yet</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CENTINELAS -->
+                <div class="agent-card" data-role="sentinel">
+                    <div class="agent-image">
+                        <div class="agent-placeholder sage">SAGE</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Centinela</span>
+                        <h3>Sage</h3>
+                        <p>La sanadora china que mantiene unida al equipo con curaciones, barreras y la capacidad de revivir aliados.</p>
+                        <div class="abilities">
+                            <span class="ability">Orbe de barrera</span>
+                            <span class="ability">Orbe de ralentización</span>
+                            <span class="ability">Orbe sanador</span>
+                            <span class="ability">Resurrección</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agent-card" data-role="sentinel">
+                    <div class="agent-image">
+                        <div class="agent-placeholder cypher">CYPHER</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Centinela</span>
+                        <h3>Cypher</h3>
+                        <p>El vigilante marroquí que no deja pasar ni un solo movimiento enemigo con sus cámaras y trampas.</p>
+                        <div class="abilities">
+                            <span class="ability">Trampa alambrada</span>
+                            <span class="ability">Cámara espía</span>
+                            <span class="ability">Jaula neural</span>
+                            <span class="ability">Asalto neural</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agent-card" data-role="sentinel">
+                    <div class="agent-image">
+                        <div class="agent-placeholder killjoy">KILLJOY</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Centinela</span>
+                        <h3>Killjoy</h3>
+                        <p>La genio alemana que bloquea áreas con torretas, alarmas y nanobots que desintegran enemigos.</p>
+                        <div class="abilities">
+                            <span class="ability">Alarmabot</span>
+                            <span class="ability">Torreta</span>
+                            <span class="ability">Nanoswarm</span>
+                            <span class="ability">Lockdown</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agent-card" data-role="sentinel">
+                    <div class="agent-image">
+                        <div class="agent-placeholder chamber">CHAMBER</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Centinela</span>
+                        <h3>Chamber</h3>
+                        <p>El diseñador de armas francés que utiliza su arsenal personalizado para eliminar amenazas con elegancia.</p>
+                        <div class="abilities">
+                            <span class="ability">Trademark</span>
+                            <span class="ability">Headhunter</span>
+                            <span class="ability">Rendezvous</span>
+                            <span class="ability">Tour de Force</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agent-card" data-role="sentinel">
+                    <div class="agent-image">
+                        <div class="agent-placeholder deadlock">DEADLOCK</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Centinela</span>
+                        <h3>Deadlock</h3>
+                        <p>La agente noruega experta en ciberseguridad que utiliza nanocables para atrapar y eliminar intrusos.</p>
+                        <div class="abilities">
+                            <span class="ability">GravNet</span>
+                            <span class="ability">Sonic Sensor</span>
+                            <span class="ability">Barrier Mesh</span>
+                            <span class="ability">Annihilation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agent-card" data-role="sentinel">
+                    <div class="agent-image">
+                        <div class="agent-placeholder vyse">VYSE</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Centinela</span>
+                        <h3>Vyse</h3>
+                        <p>La arquitecta metálica que moldea el campo de batalla con aleaciones líquidas para aislar enemigos.</p>
+                        <div class="abilities">
+                            <span class="ability">Razorvine</span>
+                            <span class="ability">Shear</span>
+                            <span class="ability">Arc Rose</span>
+                            <span class="ability">Steel Garden</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agent-card" data-role="sentinel">
+                    <div class="agent-image">
+                        <div class="agent-placeholder waylay">WAYLAY</div>
+                    </div>
+                    <div class="agent-info">
+                        <span class="agent-role">Centinela</span>
+                        <h3>Waylay</h3>
+                        <p>La agente tailandesa de 2026 que manipula luz refractada para crear ilusiones y distorsionar la percepción enemiga.</p>
+                        <div class="abilities">
+                            <span class="ability">Prism</span>
+                            <span class="ability">Refraction</span>
+                            <span class="ability">Light Speed</span>
+                            <span class="ability">Singularity</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modos de Juego Section (Reemplaza a Mapas) -->
+    <section id="modos" class="game-modes">
+        <div class="container">
+            <h2 class="section-title">MODOS DE <span class="highlight">JUEGO</span></h2>
+            <p class="section-subtitle">Diferentes formas de demostrar tu habilidad en el campo de batalla</p>
+            
+            <div class="modes-grid">
+                <div class="mode-card featured">
+                    <div class="mode-icon">⚔️</div>
+                    <div class="mode-content">
+                        <h3>Competitivo</h3>
+                        <span class="mode-tag">Clásico 5v5</span>
+                        <p>El modo definitivo de Valorant. Juega partidas clasificatorias de 13 rondas con economía completa, sistema de rangos (Hierro a Radiante) y matchmaking basado en habilidad. El equipo atacante planta la Spike, el defensor la desactiva.</p>
+                        <ul class="mode-features">
+                            <li>Partidas de 30-40 minutos</li>
+                            <li>Sistema de rangos competitivo</li>
+                            <li>Economía estratégica completa</li>
+                            <li>25 rondas máximo (prórroga)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mode-card">
+                    <div class="mode-icon">🎯</div>
+                    <div class="mode-content">
+                        <h3>Partida Rápida</h3>
+                        <span class="mode-tag">Casual</span>
+                        <p>La misma experiencia táctica del modo competitivo pero sin presión de rangos. Ideal para practicar agentes nuevos o jugar con amigos de cualquier nivel.</p>
+                        <ul class="mode-features">
+                            <li>Sin restricción de rangos</li>
+                            <li>Formato 5v5 estándar</li>
+                            <li>Menor tiempo de espera</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mode-card">
+                    <div class="mode-icon">⚡</div>
+                    <div class="mode-content">
+                        <h3>Punta de Lanza</h3>
+                        <span class="mode-tag">Rápido</span>
+                        <p>Partidas aceleradas de 4 rondas con economía predefinida. Todos los jugadores reciben las mismas armas cada ronda, eliminando la gestión económica.</p>
+                        <ul class="mode-features">
+                            <li>4 rondas por partida</li>
+                            <li>~10 minutos de duración</li>
+                            <li>Armas aleatorias cada ronda</li>
+                            <li>Formato 5v5</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mode-card">
+                    <div class="mode-icon">🔫</div>
+                    <div class="mode-content">
+                        <h3>Deathmatch</h3>
+                        <span class="mode-tag">Entrenamiento</span>
+                        <p>Modo todos contra todos para calentar la puntería. 14 jugadores, sin habilidades, spawn instantáneo. El primero en conseguir 40 kills gana.</p>
+                        <ul class="mode-features">
+                            <li>14 jugadores FFA</li>
+                            <li>Sin habilidades</li>
+                            <li>Spawn instantáneo</li>
+                            <li>40 kills para ganar</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mode-card">
+                    <div class="mode-icon">🌀</div>
+                    <div class="mode-content">
+                        <h3>Carrera Armamentística</h3>
+                        <span class="mode-tag">Especial</span>
+                        <p>Progresa a través de 12 niveles de armas diferentes. Cada kill avanza al siguiente arma, pero una muerte te retrocede. El primer jugador en conseguir kill con la última arma gana.</p>
+                        <ul class="mode-features">
+                            <li>12 niveles de armas</li>
+                            <li>FFA con 14 jugadores</li>
+                            <li>Solo headshots con rifles</li>
+                            <li>Cuchillo final decisivo</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mode-card">
+                    <div class="mode-icon">🛡️</div>
+                    <div class="mode-content">
+                        <h3>Replica</h3>
+                        <span class="mode-tag">Rotativo</span>
+                        <p>Todo el equipo juega el mismo agente en rondas alternas. 5 rondas de ataque y 5 de defensa. Ronda de desempate con agentes aleatorios.</p>
+                        <ul class="mode-features">
+                            <li>5v5 mismo agente por equipo</li>
+                            <li>10 rondas + desempate</li>
+                            <li>Rotación de agentes</li>
+                            <li>Economía completa</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mode-card">
+                    <div class="mode-icon">❄️</div>
+                    <div class="mode-content">
+                        <h3>Nieve de Polvo</h3>
+                        <span class="mode-tag">Rotativo</span>
+                        <p>Modo de invierno con mecánicas especiales. Incluye bolas de nieve que congelan, regalos con habilidades aleatorias y mapas con temática invernal.</p>
+                        <ul class="mode-features">
+                            <li>Mecánicas de hielo</li>
+                            <li>Habilidades en regalos</li>
+                            <li>Evento estacional</li>
+                            <li>5v5 con twist</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mode-card">
+                    <div class="mode-icon">👻</div>
+                    <div class="mode-content">
+                        <h3>Captura la Bandera</h3>
+                        <span class="mode-tag">Experimental</span>
+                        <p>Modo por equipos donde debes capturar la "bandera" (Spike) del enemigo y llevarla a tu base. Sin plantar, solo capturar y escoltar.</p>
+                        <ul class="mode-features">
+                            <li>5v5 por equipos</li>
+                            <li>Objetivo de captura</li>
+                            <li>Respawn rápido</li>
+                            <li>Puntuación por capturas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Competitivo Section -->
+    <section id="competitivo" class="competitive">
+        <div class="container">
+            <h2 class="section-title">CIRCUITO <span class="highlight">VCT</span></h2>
+            <p class="section-subtitle">La escena profesional de Valorant más competitiva del mundo</p>
+            
+            <div class="competitive-content">
+                <div class="competitive-info">
+                    <div class="info-card">
+                        <h3>🌍 Valorant Champions Tour</h3>
+                        <p>El circuito oficial de Riot Games que reúne a los mejores equipos de todo el mundo en una competición anual de élite.</p>
+                        <ul class="feature-list">
+                            <li><strong>Challengers:</strong> Competición regional para equipos emergentes</li>
+                            <li><strong>Masters:</strong> Torneos internacionales de alto nivel</li>
+                            <li><strong>Champions:</strong> El evento culminante del año</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="regions-grid">
+                        <div class="region-card">
+                            <h4>EMEA</h4>
+                            <p>Europa, Medio Oriente y África</p>
+                            <span class="teams">Fnatic, Team Liquid, NAVI, Vitality</span>
+                        </div>
+                        <div class="region-card">
+                            <h4>Americas</h4>
+                            <p>Norte y Sudamérica</p>
+                            <span class="teams">Sentinels, LOUD, EG, Leviatán</span>
+                        </div>
+                        <div class="region-card">
+                            <h4>Pacific</h4>
+                            <p>Asia-Pacífico</p>
+                            <span class="teams">PRX, DRX, Gen.G, T1</span>
+                        </div>
+                        <div class="region-card">
+                            <h4>China</h4>
+                            <p>Región independiente</p>
+                            <span class="teams">EDG, FPX, BLG, Trace Esports</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="competitive-stats">
+                    <div class="prize-pool">
+                        <span class="label">Premio Total Champions 2025</span>
+                        <span class="amount">$2,500,000+</span>
+                    </div>
+                    <div class="viewership">
+                        <span class="label">Pico de Espectadores</span>
+                        <span class="amount">1.8M+</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span>VALORANT</span>
+                    <p>© 2026 Riot Games, Inc. Todos los derechos reservados.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Términos de Servicio</a>
+                    <a href="#">Soporte</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
